@@ -1,4 +1,4 @@
-# cook-book-2
+# Cook Book 
 
 a [Sails v1](https://sailsjs.com) application
 
