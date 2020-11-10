@@ -1,0 +1,23 @@
+<ol1 class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/recipe/list">CookBook</a>
+    </li>
+    <li class="breadcrumb-item active">Add</li>
+</ol1>
+
+<h1 class="display-4">Add recipe</h1>
+<form method="post" action="/recipe/create">
+    <div class="form-group">
+        <label for="name" >Name</label>
+        <input type="text" name="name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="ingredients">Ingredients</label>
+        <input type="text" name="ingredients" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="portions">Portions</label>
+        <input type="text" name="portions" class="form-control">
+    </div>
+    <input type="submit" value="submit" class="btn btn-primary">
+</form>
